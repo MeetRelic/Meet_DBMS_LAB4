@@ -1,4 +1,4 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `proc`()
+CREATE DEFINER=`user`@`localhost` PROCEDURE `proc`()
 BEGIN
     SELECT
         report.supp_id,
